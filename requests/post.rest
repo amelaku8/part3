@@ -1,0 +1,36 @@
+POST http://localhost:3001/api/persons
+content-type: application/json
+
+{
+    "name": "dfse",
+    "number": "dedfe"
+}
+###
+GET http://localhost:3001/api/persons
+###
+DELETE http://localhost:3001/api/persons/2
+
+###
+POST http://localhost:3001/api/persons
+content-type: application/json
+
+{
+    "name": "dfse",
+    "number": "dedfe"
+}
+###
+POST http://localhost:3001/api/persons
+content-type: application/json
+
+{
+    
+    "number": "dedfe"
+}
+###
+POST http://localhost:3001/api/persons
+content-type: application/json
+
+{
+    
+    "name": "dedfe"
+}
