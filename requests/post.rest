@@ -10,13 +10,15 @@ GET http://localhost:3001/api/persons
 ###
 DELETE http://localhost:3001/api/persons/2
 
+
+
 ###
-POST http://localhost:3001/api/persons
+PUT http://localhost:3001/api/persons/66a6fc0f2bb6e79c7c634864
 content-type: application/json
 
 {
     "name": "dfse",
-    "number": "dedfe"
+    "number": 12345447
 }
 ###
 POST http://localhost:3001/api/persons
