@@ -3,7 +3,7 @@ content-type: application/json
 
 {
     "name": "dfse",
-    "number": "dedfe"
+    "number": "12-23323"
 }
 ###
 GET http://localhost:3001/api/persons
@@ -13,12 +13,12 @@ DELETE http://localhost:3001/api/persons/2
 
 
 ###
-PUT http://localhost:3001/api/persons/66a6fc0f2bb6e79c7c634864
+POST  http://localhost:3001/api/persons/66a6fc0f2bb6e79c7c634864
 content-type: application/json
 
 {
     "name": "dfse",
-    "number": 12345447
+    "number": "4e4ea"
 }
 ###
 POST http://localhost:3001/api/persons
@@ -26,7 +26,7 @@ content-type: application/json
 
 {
     
-    "number": "dedfe"
+    "number": "1"
 }
 ###
 POST http://localhost:3001/api/persons
@@ -36,3 +36,6 @@ content-type: application/json
     
     "name": "dedfe"
 }
+
+###
+GET http://localhost:3001/api/persons/435
